@@ -1,0 +1,30 @@
+p {
+	font-family: 'Arbutus Slab', serif;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+h1 {
+	font-family: 'Arbutus Slab', serif;
+	font-size: 48px;
+	text-align: center;
+	color: #574D37;
+	letter-spacing: -1px;
+}
+
+label {
+	font-family: 'Arbutus Slab', serif;
+	font-size: 24px;
+	color: #F93;
+}
+
+button {
+	background-color: #F93;
+	padding: 5px;
+	color: white;
+	font-size: 14px;
+}
+
+#word {
+	font-size: 20px;
+}
