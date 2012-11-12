@@ -4,6 +4,7 @@ letterValues = {'A': 1, 'C': 3, 'B': 2, 'E': 5, 'D': 4, 'G': 7, 'F': 6, 'I': 9, 
 25, 'x': 24, 'z': 26}; 
 
 var displayValue = function() {
+	console.log("calling displayValue");
 	var word = document.getElementById("word").value.trim();
 	word = word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
 
@@ -39,6 +40,9 @@ var displayValue = function() {
 	response.id = "response";
 	results.appendChild(response);
 };
+
+// var go = document.getElementById('go');
+// go.onclick = displayValue();
 
 $(document).ready(function(){
 	$("#go").click(displayValue);
